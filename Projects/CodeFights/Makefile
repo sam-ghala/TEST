@@ -1,3 +1,3 @@
 all:
-		g++ codeTest.cpp -o run
-		./run
+	g++ codeTest.cpp -o run
+	./run

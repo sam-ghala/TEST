@@ -7,21 +7,30 @@
 #include <string>
 
 int main(){
-    int a[] = {2,1,3,5,3,2};
-    int index = -1;
-    int value;
-    int len = (sizeof(a)/sizeof(a[0]));
-    for (int i =0; i < len/2 ;i++)
+    int value, g, max, j;
+    int arr[6] = {2,1,3,5,3,2};
+    int len = sizeof(arr)/sizeof(arr[0]);
+    int dumj[];
+    int dumg[];
+    max = -1;
+    j = 0;
+    g = 0;
+    for (int i = 0; i < len/2;i++)
     {
-        for(int k = 1; k < len;i++)
+        for(int k = i+1; k < len;k++)
         {
-          if(a[i] == a[k])
-              index = k - i;
-              value = a[i];
+          if(arr[i] == arr[k])
+              dumj.push_back(arr[i]);
+              dumg.push_back(k-i);
+              j++;
+              g++;
         }
 
     }
-    std::cout << value << "TESTING...\n";
-    std::cin >> index;
+    for(int i = 0; i < sizeof(dumj)/sizeof(dumj[0]);i++)
+        if(dumj[i] > max)
+            max = dumj[i];
+    std::cout << max;
+    std::getchar();
 	return 0;
 }
