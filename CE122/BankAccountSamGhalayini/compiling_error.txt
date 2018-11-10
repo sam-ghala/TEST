@@ -1,0 +1,5 @@
+/Users/samghala/C++/CE122/BankAccountSamGhalayini/Source.cpp:13:25: error: expected ';' at end of declaration
+        bankAccount customer[3]{ { "Joe", "00", 500 }, {"Katie", "01", 300}, {"Jared", "10", 650} };
+                               ^
+                               ;
+1 error generated.
