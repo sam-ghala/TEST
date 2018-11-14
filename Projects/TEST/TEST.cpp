@@ -1,11 +1,13 @@
 #include <iostream>
-
+#include<vector>
 int main(){
-    std::cout << "Testing...\n";
-    std::cout << "Git commit works to github!\n";
-    std::cout << "Atom commit works to github!\n";
-    int test;
-    std::cin >> test;
-
+      std::vector<int> scores = {10,20,30,40,50};
+      int sum = 0;
+      std::vector<int>output;
+      for(int i = 0; i < scores.size(); i++){
+          sum = sum + scores[i];
+          output[i] = (sum/(i+1));
+          std::cout << output[i] << std::endl;
+      }
     return 0;
 }
