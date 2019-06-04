@@ -1,13 +1,21 @@
 #include <iostream>
 #include<vector>
 int main(){
-      std::vector<int> scores = {10,20,30,40,50};
-      int sum = 0;
-      std::vector<int>output;
-      for(int i = 0; i < scores.size(); i++){
-          sum = sum + scores[i];
-          output[i] = (sum/(i+1));
-          std::cout << output[i] << std::endl;
+  int ar[10] = {1, 1, 3, 1, 2, 1, 3, 3, 3, 3};
+  int n = 10;
+  int nu[10] = {0};
+  int sum;
+  for(int i = 0; i <n ; i++){
+      for(int k = 0; k < n; k++){
+          if(ar[i] == ar[k]){
+              nu[i] += 1;
+          }
       }
+  }
+  for(int i = 0; i < n; i++){
+      nu[i] = (nu[i]/2);
+      std::cout << nu[i] << std::endl;
+    }
+  //std::cout << sum;
     return 0;
 }

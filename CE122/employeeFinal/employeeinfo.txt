@@ -1,0 +1,7 @@
+N:Katie R Snow   A:122 Frost Drive, Durango, CO 81301    H:(970)223-8223 C:(970)482-3482 E:ksnow@hotmail.com     S:47700 SD:04-03-2017 TD:00-00-0000 V:13
+N:Mary A Jones   A:42 Pine Road, Bayfield, CO 81122      H:(970)524-4455 C:(970)555-5555 E:janema@gmail.com      S:32000 SD:01-01-2018 TD:00-00-0000 V:10
+N:Josh T Wierzba A:7 Windy Avenue, Burlington, VT 05401  H:(802)681-1125 C:(802)422-2443 E:weirzbaj@yahoo.com    S:51000 SD:10-12-2010 TD:00-00-0000 V:7
+N:Fred W Rogers  A:1023 8th Street, Middlebury, VT 05735 H:(802)623-2279 C:(000)000-0000 E:fredrogers@gmail.com  S:68000 SD:12-18-1985 TD:00-00-0000 V:22
+N:Jamie R Smith  A:154 7th Avenue, Salem, OR 97301       H:(503)362-5657 C:(971)438-8110 E:jamessmith6@gmail.com S:48000 SD:01-25-2007 TD:00-00-0000 V:4
+
+
